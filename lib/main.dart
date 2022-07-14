@@ -21,7 +21,7 @@ class CatsLogin extends StatelessWidget {
               image: AssetImage('images/Catfly_logo.png'),
             ),
             Card(
-              margin: EdgeInsets.symmetric(vertical: 20),
+              margin: EdgeInsets.symmetric(vertical: 10),
               color: Color(0xff0035A5),
               child: ListTile(
                 leading: Image(
