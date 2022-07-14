@@ -25,6 +25,7 @@ void main() {
       testGoldens('Golden test', (tester) async {
         final builder = DeviceBuilder()
           ..overrideDevicesForAllScenarios(devices: [
+            Device.phone,
             Device.iphone11,
           ])
           ..addScenario(
